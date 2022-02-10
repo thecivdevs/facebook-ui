@@ -1,0 +1,36 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background: lightgrey;
+    padding: 10px;
+    margin: 0;
+}
+
+#headerRightContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-color: aquamarine;
+    justify-content: space-between;
+}
+
+#menu {
+    background-color: yellow;
+}
+
+#centerArea {
+    background-color: lightsalmon;
+}
+
+#online {
+    background-color: lightskyblue;
+}
+
